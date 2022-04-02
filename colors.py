@@ -3,6 +3,7 @@
 import os
 from time import sleep
 
+__author__ = 'Quinten Cabo'
 
 def supports_color():
     """
