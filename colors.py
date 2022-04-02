@@ -3,6 +3,9 @@
 import os
 from time import sleep
 
+__author__ = 'Quinten Cabo'
+__license__ = 'MIT'
+
 
 def supports_color():
     """
