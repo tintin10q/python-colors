@@ -20,6 +20,6 @@ print(f'''{RED}Is it red?{STOP}{GREEN}{BLINK}Am I blinking{STOP_BLINK}?{STOP}'''
 # Question mark should not blink.
 ```
 
-You can also use the show_table function to see what formatting is supported on your platform. This function is also ran if you run the file directly.
+You can also use the `show_table` function to see what formatting is supported on your platform. This function is also ran if you run the file directly.
 
 I hope this is useful for you!
