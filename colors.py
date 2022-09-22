@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+# https://github.com/tintin10q/python-colors/blob/main/colors.py 
 
 import os
 from time import sleep
 
 __author__ = 'Quinten Cabo'
-__license__ = 'MIT'
+__license__ = 'GNU 2'
 
 
 def supports_color():
