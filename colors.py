@@ -3,7 +3,6 @@
 # wget https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py
 
 import os
-from time import sleep
 
 __author__ = 'Quinten Cabo'
 __license__ = 'GNU 2'
@@ -22,16 +21,12 @@ def supports_color():
     return supported_platform and is_a_tty
 
 
-def clearConsole():
+def clear_console():
+    """ Runs the console clear command in a simple platform specific way """
     command = 'clear'
     if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
         command = 'cls'
     os.system(command)
-
-
-def pause(t=1):
-    sleep(t)
-    clearConsole()
 
 
 STOP = ''
