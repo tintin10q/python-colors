@@ -7,7 +7,7 @@ Most formatting codes are implemented.
 
 The module tries to check automatically if colors are supported. If colors are not supported than the color codes turn into empty strings. This means that users on non color supported terminals do not see anything.
 
-There is also a printc function where it automatically puts a STOP at the end of the print.
+There is also a `printc` function where it automatically puts a `f{STOP}\n"` at the end of the normal print.
 
 ```python
 
