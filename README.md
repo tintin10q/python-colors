@@ -1,7 +1,7 @@
 # python-colors
 Simple colourfull Python output.
 
-This is a module that assigns terminal ansi formatting codes to variables. So it is an abstraction above the whole '\033[xx' thing.
+This is a module that assigns terminal [ansi formatting](https://en.wikipedia.org/wiki/ANSI_escape_code) codes to variables. So it is an abstraction above the whole '\033[xx' thing.
 
 Most formatting codes are implemented. 
 
