@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # https://github.com/tintin10q/python-colors/blob/main/colors.py
-# curl https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py
+# wget https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py
 
 import os
 from time import sleep
