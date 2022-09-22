@@ -231,7 +231,7 @@ def printc(*args, STOPPER=STOP, **kwargs, ):
     print(*args, **kwargs, end=STOPPER + '\n')
 
 
-# It is also a good idea to set sep when printing because then you can just use the commas. Otherwise use +.
+# It is also a good idea to set sep when printing because then you can just use the commas. Otherwise, use +.
 
 
 def show_table(up_to=110):
@@ -245,7 +245,7 @@ def show_table(up_to=110):
 if __name__ == '__main__':
     from sys import argv
 
-    STOP = '\033[0m'  # Just always have this. If it doesn't work it doesn' work. Lets not rely on supports_colors fully.
+    STOP = '\033[0m'  
 
     up_to = 110
 
