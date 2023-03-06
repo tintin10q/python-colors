@@ -19,6 +19,8 @@ print(f'''{RED}Is it red?{STOP}{GREEN}{BLINK}Am I blinking{STOP_BLINK}?{STOP}'''
 # Question mark should not blink.
 ```
 
+![watchme.gif](watchme.gif)
+
 You can also use the `show_table` function to see what formatting is supported on your platform. This function is also ran if you run the file directly. When running directly you can specify a number as first argument how many numbers to print.
 
 I hope this is useful for you!
