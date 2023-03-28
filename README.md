@@ -23,4 +23,6 @@ print(f'''{RED}Is it red?{STOP}{GREEN}{BLINK}Am I blinking{STOP_BLINK}?{STOP}'''
 
 You can also use the `show_table` function to see what formatting is supported on your platform. This function is also ran if you run the file directly. When running directly you can specify a number as first argument how many numbers to print.
 
+Simply download with `curl wget https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py > colors.py`
+
 I hope this is useful for you!
