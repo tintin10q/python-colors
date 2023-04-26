@@ -8,7 +8,7 @@ __author__ = 'Quinten Cabo'
 __license__ = 'GNU 2'
 
 
-def supports_color():
+def supports_color() -> bool:
     """
     Returns True if the running system's terminal supports color, and False
     otherwise.
