@@ -25,10 +25,9 @@ You can also use the `show_table` function to see what formatting is supported o
 
 ## Simply download with:
 
-```wget https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py```
-
-or 
-
-```curl https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py > colors.py```
+```shell
+pip install wget
+python -m wget -o colors.py https://raw.githubusercontent.com/tintin10q/python-colors/main/colors.py
+```
 
 I hope this is useful for you!
